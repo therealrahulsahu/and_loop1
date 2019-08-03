@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff5456"
+    tools:context=".Ac1">
+
+
+    <TextView
+        android:id="@+id/tv1_id"
+        android:layout_width="258dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="210dp"
+        android:text="Rahul"
+        android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+    <EditText
+        android:id="@+id/et1_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="96dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/bt1_id"
+        android:layout_width="149dp"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="334dp"
+        android:layout_marginStart="114dp"
+        android:text="Insert" />
+
+    <Button
+        android:id="@+id/bt2_id"
+        android:layout_width="158dp"
+        android:layout_height="66dp"
+        android:layout_above="@+id/et1_id"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-96dp"
+        android:layout_marginStart="83dp"
+        android:text="Search" />
+
+    <Button
+        android:id="@+id/bt3_id"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="194dp"
+        android:text="Delete" />
+</RelativeLayout>
